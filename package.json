@@ -1,6 +1,6 @@
 {
   "name": "@solid/react",
-  "version": "1.9.0",
+  "version": "2.0.0-1",
   "description": "Efficiently build Solid apps and components with React",
   "author": "Ruben Verborgh <ruben@verborgh.org> (https://ruben.verborgh.org/)",
   "license": "MIT",
@@ -22,9 +22,9 @@
   ],
   "dependencies": {
     "@babel/runtime": "^7.1.2",
-    "@solid/query-ldflex": "^2.5.1",
+    "@solid/query-ldflex": "git:github.com/inrupt/query-ldflex#feature/auth-fetcher-update",
     "prop-types": "^15.6.2",
-    "solid-auth-client": "^2.3.0"
+    "solid-auth-client": "git:github.com/inrupt/solid-auth-client#auth-fetcher"
   },
   "peerDependencies": {
     "react": "^16.8.4"
