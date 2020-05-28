@@ -1,0 +1,51 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 11pt;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.solid.value.pending:before {
+  content: "…";
+  color: #999;
+}
+
+.solid.value.empty:before {
+  content: "(none)";
+  color: #999;
+}
+
+.solid.value.error:before {
+  content: '[' attr(data-error) ']';
+  font-style: italic;
+  color: red;
+}
+
+.solid.activity {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.solid.activity:hover {
+  text-decoration: underline;
+}
+.solid.activity::before {
+  display: inline-block;
+}
+.solid.like::before {
+  content: '👍 ';
+}
+.solid.dislike::before {
+  content: '👎 ';
+}
+
+img.profile {
+  float: right;
+  max-width: 120px;
+  max-height: 120px;
+}
+
+footer {
+  font-size: small;
+  margin-top: 2em;
+}
