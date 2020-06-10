@@ -22,6 +22,7 @@
   ],
   "dependencies": {
     "@babel/runtime": "^7.1.2",
+    "@inrupt/solid-auth-fetcher": "0.0.7-fixdefault-windows-fetch-131035347-32.0",
     "@solid/query-ldflex": "git:github.com/inrupt/query-ldflex#feature/auth-fetcher-update",
     "prop-types": "^15.6.2",
     "solid-auth-client": "git:github.com/inrupt/solid-auth-client#auth-fetcher"

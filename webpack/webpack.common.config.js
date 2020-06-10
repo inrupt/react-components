@@ -19,10 +19,10 @@ module.exports = function extendConfig(outputDir, customize) {
     resolve: {
       extensions: ['.mjs', '.js', '.jsx', '.json'],
     },
-    externals: {
-      'solid-auth-client': ['solid', 'auth'],
-      '@solid/query-ldflex': ['solid', 'data'],
-    },
+    // externals: {
+    //   'solid-auth-client': ['solid', 'auth'],
+    //   '@solid/query-ldflex': ['solid', 'data'],
+    // },
     devtool: 'source-map',
   });
 };
