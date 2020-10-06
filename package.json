@@ -21,7 +21,7 @@
     "webpack"
   ],
   "dependencies": {
-    "@babel/runtime": "^7.1.2",
+    "@babel/runtime": "^7.11.2",
     "@solid/query-ldflex": "^2.5.1",
     "prop-types": "^15.6.2",
     "solid-auth-client": "^2.3.0"
