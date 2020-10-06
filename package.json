@@ -22,7 +22,7 @@
   ],
   "dependencies": {
     "@babel/runtime": "^7.1.2",
-    "@solid/query-ldflex": "^2.5.1",
+    "@solid/query-ldflex": "^2.11.2",
     "prop-types": "^15.6.2",
     "solid-auth-client": "^2.3.0"
   },
