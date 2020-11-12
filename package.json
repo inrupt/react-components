@@ -24,7 +24,7 @@
     "@babel/runtime": "^7.1.2",
     "@solid/query-ldflex": "^2.5.1",
     "prop-types": "^15.6.2",
-    "solid-auth-client": "^2.3.0"
+    "solid-auth-client": "^2.5.3"
   },
   "peerDependencies": {
     "react": "^16.8.4"
